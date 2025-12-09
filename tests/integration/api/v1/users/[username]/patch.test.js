@@ -26,7 +26,7 @@ describe("PATCH /api/v1/users/[username]", () => {
       expect(responseBody).toEqual({
         name: "NotFoundError",
         message: "O username informado não foi encontrado no sistema.",
-        action: "Verifique se o username esta digitado corretamente.",
+        action: "Verifique se o username está digitado corretamente.",
         status_code: 404,
       });
     });
